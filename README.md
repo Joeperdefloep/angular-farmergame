@@ -1,6 +1,6 @@
 # Farmergame
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.6.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.6. as a spin-off from the thesis project of Machteld Schoolenberg, as orignally developed in ActionScript 3 by weirdbeard games. This mock-up of the front-end buy animals and crops screen was made from the original publication available [here](https://ypard.net/sites/default/files/legacy_files/Machteld.%20A.%20Schoolenberg.pdf).
 
 ## Development server
 
