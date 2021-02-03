@@ -1,0 +1,27 @@
+<div class="w3-responsive">
+    <table class="w3-table-all">
+        <tr class="w3-orange">
+            <th>Type</th>
+            <th>buy price</th>
+            <th>nr wanted</th>
+            <th>price change</th>
+            <th>labour change</th>
+        </tr>
+        <tr *ngFor="let crop of crops">
+            <td>{{crop.name}}</td>
+            <td>{{crop.buyPrice}}</td>
+            <td><div class="slidecontainer">
+                <input class="slider" type="range" [formControl]="crop.nrWantedFC" min="{{crop.nrPlanted}}" max="{{freeFields}}" step="{{crop.reqFields}}"/>
+                </div>
+            </td>
+            <td>{{crop.priceChange}}</td>
+            <td>{{crop.labour}}</td>
+        </tr>
+        <tr>
+            <th>subtotal</th>
+            <th></th>
+            <th></th>
+            <th>{{subTotal}}</th>
+        </tr>
+    </table>
+</div>
